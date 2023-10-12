@@ -1,0 +1,186 @@
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+/* Hero Section */
+.heroScreen h1{
+    margin: 0;
+    font-size: 70px;
+}
+
+.heroScreen {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroScreen .heroTitle {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    background-color: #1f1f1f;
+    border: hidden;
+    border-radius: 50px;
+}
+
+.heroTitle div {
+    margin-left: 100px;
+}
+
+.heroScreen p {
+    font-weight: 200;
+    margin: 0;
+    font-size: 70px;
+    line-height: 1;
+}
+
+.heroScreen span {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+/* Main Content */
+.homepageContent {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* About me Section */
+.aboutSection {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutSectionContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 90vw;
+    height: 90vh;
+    background-color: #1f1f1f;
+    border: hidden;
+    border-radius: 50px;
+}
+
+.aboutSectionContent div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutSectionContent img {
+    border-radius: 300px;
+    margin-top: 40px;
+    margin-bottom:20px;
+}
+
+.aboutSectionContent h2 {
+    font-size: 65px;
+    margin: 0;
+}
+
+.aboutSectionContent p {
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Projects Section */
+.projects {
+    justify-content: end;
+    height: 100vh;
+    width: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    width: 70vw;
+    height: 50vh;
+}
+
+.projectsSection p {
+    font-size: 50px;
+    line-height: 0;
+}
+
+/* Contact Section */
+.contact {
+    display: flex;
+    justify-content: center;
+    background-color: #141414;
+}
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact p {
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.contact div div{
+    display: flex;
+    justify-content: center;
+}
+
+/* View Button */
+.viewButton {
+    border: 0;
+    font-size: 30px;
+    padding: 35px;
+    border-radius: 100px;
+    color: white;
+    background-color: #141414;
+    margin: 0;
+}
+
+@keyframes expand {
+    from {}
+}
+
+.viewButton:hover {
+    cursor: pointer;
+}
+
+.subHeaders {
+    font-size: 45px;
+}
+
+.bottomSpacer {
+    margin-bottom: 40px;
+}
+
+.contactButton {
+    font-size: 30px;
+    padding: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: white;
+    border: hidden;
+    margin-bottom: 30px;
+}
