@@ -1,0 +1,82 @@
+@media screen and (max-width: 420px) {
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+
+}
+/* Navigation Menu */
+.stick {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.navMenu {
+   background-color: black;
+   top: 0;
+   bottom: 0;
+   z-index: 1;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2.5vh 5vw;
+   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navMenu #logo {
+    display: flex;
+    align-items: center;
+}
+
+.navMenu #logo img {
+    height: 55px;
+    width: 55px;
+}
+
+.navMenu div h3 {
+    color: white;
+    font-size: 22px;
+    line-height: 1px;
+    font-weight: 500;
+}
+
+.navigation {
+    width: 400px;
+    border-radius: 50px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.burger-menu {
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: #2265d8;
+}
