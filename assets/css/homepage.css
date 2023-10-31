@@ -106,6 +106,12 @@
     border-radius: inherit;
 }
 
+.aboutSection span {
+    background: linear-gradient(-45deg, #0011fe, #0ff2e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #aboutMeText {
     display: flex;
     flex-direction: column;
