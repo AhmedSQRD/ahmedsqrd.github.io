@@ -21,7 +21,7 @@
     left: 0%;
     width: 100%;
     height: 100%;
-    background: url("/Users/ahmed/Desktop/Personal Portfolio Website/assets/images/tile_background.png");
+    background: linear-gradient(135deg, #1020b0, #106bb0);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
